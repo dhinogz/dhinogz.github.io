@@ -8,10 +8,10 @@ tags:
 - dev-environment
 - modal-text-editing
 ---
-# What is Helix?
+## What is Helix?
 Helix is a modal text editor based on Kakoune. It's builtin tree sitter integration, LSP support, and other modern features make it stand out.
 
-# Configuration
+## Configuration
 Helix prides itself on its easy configuration. 
 
 Take my two configuration files for example
