@@ -9,11 +9,14 @@ tags:
 - modal-text-editing
 ---
 # What is Helix?
-Helix is a modal text editor based on Kakoune. It's built-in tree sitter integratioin, LSP support, and other modern builtin features make it stand out.
+Helix is a modal text editor based on Kakoune. It's builtin tree sitter integration, LSP support, and other modern features make it stand out.
 
 # Configuration
 Helix prides itself on its easy configuration. 
 
+Take my two configuration files for example
+
+This sets up text editor preferences, like having relative line numbers, configuring the status line, and having a bar cursor shape in insert mode. 
 ```toml
 theme = "dracula"
 
@@ -49,6 +52,7 @@ hidden=false
 ```
 {: file='.config/helix/config.toml'}
 
+The language.toml file sets up LSP with their language.
 ```toml
 [[language]]
 name = "go"
